@@ -18,6 +18,11 @@ package com.chirag.javadaily.problems.day01_jvm_basics;
  * obj2 is created.
  *
  * Actual Output
+ *In static block!
+ * In instance block!
+ * obj1 is created.
+ * In instance block!
+ * obj2 is created.
  *
  * Observation
  * Static block executes once during class initialization, before main().

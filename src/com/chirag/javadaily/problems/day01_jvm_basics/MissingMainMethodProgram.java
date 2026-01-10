@@ -11,7 +11,7 @@ package com.chirag.javadaily.problems.day01_jvm_basics;
  *
  *  Expected Output
  *  not expected
- *Qq
+ *
  *  Actual Output
  *  Error: Could not find or load main class MissingMainMethodProgram
  *  Caused by: java.lang.NoClassDefFoundError: MissingMainMethodProgram (wrong name: com/chirag/javadaily/problems/day01_jvm_basics/MissingMainMethodProgram)

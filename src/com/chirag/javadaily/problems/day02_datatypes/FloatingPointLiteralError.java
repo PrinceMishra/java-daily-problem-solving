@@ -8,7 +8,8 @@ package com.chirag.javadaily.problems.day02_datatypes;
  * Fix the code using two different valid approaches.
  *
  * Actual Output
- *(Verify by running)
+ *by default literal 10.5 is double  that's why it needs float and f suffix 10.5 and 20.5
+ *
  * Expected Output
  * by default f stores double value that's why it needs (float) and 'f' postfix 10.5 and 20.5
  *

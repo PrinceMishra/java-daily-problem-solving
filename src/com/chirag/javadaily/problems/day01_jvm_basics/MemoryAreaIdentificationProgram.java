@@ -15,7 +15,9 @@ package com.chirag.javadaily.problems.day01_jvm_basics;
  * Local Variable local = 1999
  *
  * Actual Output
- * (verify by running)
+ * Static Variable stat = 26
+ * Instance Variable instance = 7
+ * Local Variable local = 1999
  *
  * Observation
  * Static variables belong to the class → stored in Method Area (Metaspace), BELONGS TO A CLASS METADATA

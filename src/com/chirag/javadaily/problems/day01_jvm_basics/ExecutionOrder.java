@@ -15,7 +15,10 @@ package com.chirag.javadaily.problems.day01_jvm_basics;
  * Constructor executed
  *
  * Actual Output:
- * (verify by running)
+ * Static block executed
+ * Main method started
+ * Instance block executed
+ * Constructor executed
  *
  * Observations:
  * - Static block executes when class is loaded

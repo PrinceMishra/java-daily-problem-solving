@@ -17,13 +17,13 @@ package com.chirag.javadaily.problems.day01_jvm_basics;
  *
  * Actual Output
  * for "private static void main(String[] args)"
- *
+ *  not able to execute
  *
  * for "protected static void main(String[] args)"
- *
+ *  not able to execute
  *
  * for "public void main(String[] args) (non-static)"
- *
+ *  not able to execute
  *
  * observation
  * The JVM launcher requires an exact entry point:
@@ -46,8 +46,8 @@ public class InvalidMainMethodVariations{
 //    private static void main(String args[]){
 //        System.out.println("Prince life is private");
 //    }
-    public void main(String args[]){
-        System.out.println("Prince life is nothing");
-    }
+//    public void main(String args[]){
+//        System.out.println("Prince life is nothing");
+//    }
 
 }

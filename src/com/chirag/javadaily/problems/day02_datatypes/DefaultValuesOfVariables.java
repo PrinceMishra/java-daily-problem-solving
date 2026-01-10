@@ -7,8 +7,20 @@ package com.chirag.javadaily.problems.day02_datatypes;
  * Print their default values.
  *
  * Actual Output
+ *Default value of int is 0
+ * Default value of long is 0
+ * Default value of float is 0.0
+ * Default value of double is 0.0
+ * Default value of char is empty
+ * Default value of boolean is false
  *
  * Expected Output
+ *Default value of int is 0
+ * Default value of long is 0
+ * Default value of float is 0.0
+ * Default value of double is 0.0
+ * Default value of char is null
+ * Default value of boolean is false
  *
  * Observation
  * Class-level variables (static and instance) are automatically initialized

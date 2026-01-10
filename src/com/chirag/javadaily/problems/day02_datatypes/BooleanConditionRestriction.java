@@ -9,10 +9,10 @@ package com.chirag.javadaily.problems.day02_datatypes;
  * Record the compilation result.
  *
  * Actual Output
- *Addition successful, value of a is 10
+ * Addition successful, value of a is 10
  *
  * Expected Output
- *Addition successful, value of a is 10
+ * Addition successful, value of a is 10
  *
  * Observation
  * In Java, the condition inside an if statement must be a boolean expression.

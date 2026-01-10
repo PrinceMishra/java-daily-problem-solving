@@ -9,7 +9,6 @@ package com.chirag.javadaily.problems.day02_datatypes;
  * Observe and record the compiler error.
  *
  * Actual Output
- *(verify by running )
  *
  * Expected Output
  * compile time error

@@ -10,7 +10,12 @@ package com.chirag.javadaily.problems.day02_datatypes;
  * Print values before and after overflow.
  *
  * Actual Output
- *(verify by running)
+ * before overflow b = 127
+ * after overflow b = -128
+ * before overflow s = 32767
+ * after overflow s = -32768
+ * before overflow i = 2147483647
+ * after overflow i = -147483649
  *
  * Expected Output
  * before overflow b = 127

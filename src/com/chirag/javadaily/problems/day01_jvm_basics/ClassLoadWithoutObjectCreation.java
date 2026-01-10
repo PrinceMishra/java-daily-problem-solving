@@ -10,7 +10,8 @@ package com.chirag.javadaily.problems.day01_jvm_basics;
  * Prove this using output.
  *
  * Actual Output
- *  (verify by running)
+ * It's a static block.
+ * Main block started.
  *
  * Expected Output
  * It's a static block.

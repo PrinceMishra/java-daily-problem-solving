@@ -7,12 +7,13 @@ package com.chirag.javadaily.problems.day01_jvm_basics;
  * ClassB → contains main()
  * In main(), reference ClassA in such a way that you can prove exactly when ClassA is loaded.
  *
+ * Actual Output:
+ * Class A initialized
+ * x = 6
+ *
  *  Expected Output:
  *  Class A Initialized
  *  x =6;
- *
- *  Actual Output:
- *  (verify by running)
  *
  *  Observations:
  *  - Static block executes when class is loaded

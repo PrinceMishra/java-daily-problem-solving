@@ -13,7 +13,10 @@ package com.chirag.javadaily.problems.day01_jvm_basics;
  * It's main Block!
  *
  * Actual Output
- * (verify by running)
+ * Initialization Block A
+ * Initialization Block B
+ * Initialization Block C
+ * Main Started!!
  *
  * Observation
  * All static blocks execute during class initialization,
