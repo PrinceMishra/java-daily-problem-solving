@@ -9,6 +9,40 @@ package com.chirag.javadaily.problems.day05_methods_stack;
  * Each method must print:
  * when it is entered
  * when it is exited
+ *
+ * Actual Output
+ * Entered main
+ * Entered m1
+ * Entered m2
+ * Entered m3
+ * Getting out m3
+ * Getting out m2
+ * Getting out m1
+ * 11
+ * Getting out main
+ *
+ * Expected Output
+ * Entered main
+ * Entered m1
+ * Entered m2
+ * Entered m3
+ * Getting out m3
+ * Getting out m2
+ * Getting out m1
+ * 11
+ * Getting out main
+ *
+ * Observation
+ * After class loading, JVM invokes the main method, which becomes the first
+ * stack frame. Each method call creates a new stack frame and is pushed onto
+ * the call stack.
+ *
+ * Methods return in Last-In-First-Out (LIFO) order. The last method called
+ * (m3) is the first to complete execution and free its stack frame, followed
+ * by m2, m1, and finally main.
+ *
+ * 🧠 One-Line Interview Answer (MEMORIZE)
+ * Java uses a call stack where method calls follow LIFO order—each method call creates a stack frame that is removed when the method returns.
  */
 
 public class MethodCallChainCallStack {
@@ -34,7 +68,7 @@ public class MethodCallChainCallStack {
     public static void main(String[] args) {
         System.out.println("Entered main");
         MethodCallChainCallStack obj1 = new MethodCallChainCallStack();
-        obj1.m1(5);
+        System.out.println(obj1.m1(5));
         System.out.println("Getting out main");
     }
 
