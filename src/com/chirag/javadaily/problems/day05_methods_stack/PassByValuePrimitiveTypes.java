@@ -24,9 +24,7 @@ package com.chirag.javadaily.problems.day05_methods_stack;
  * 🧠 One-Line Interview Answer (MEMORIZE)
  * In Java, primitive types are passed by value, so changes inside a method do not affect the caller’s variables.
  */
-
 public class PassByValuePrimitiveTypes {
-
     public void swap (int a , int b){
         int temp;
         temp = a;
@@ -35,13 +33,11 @@ public class PassByValuePrimitiveTypes {
         System.out.println("Value of a = " + a);
         System.out.println("Value of b = " + b);
     }
-
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
         System.out.println("Before value of a = " + a);
         System.out.println("Value of b = " + b) ;
-
         PassByValuePrimitiveTypes obj = new PassByValuePrimitiveTypes();
         obj.swap(a,b);
         System.out.println("Value of a = " + a);

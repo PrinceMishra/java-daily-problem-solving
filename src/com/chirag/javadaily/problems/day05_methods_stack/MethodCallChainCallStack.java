@@ -1,5 +1,4 @@
 package com.chirag.javadaily.problems.day05_methods_stack;
-
 /**
  * 1️⃣ Method Call Chain (Call Stack)
  *
@@ -71,5 +70,4 @@ public class MethodCallChainCallStack {
         System.out.println(obj1.m1(5));
         System.out.println("Getting out main");
     }
-
 }
